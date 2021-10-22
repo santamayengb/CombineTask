@@ -77,7 +77,7 @@ class HomePage extends StatelessWidget {
                     onTap: () => log("Pizza"),
                     child: const MyCard(
                       name: "Pizza",
-                      description: 'Veg | Chicken | Paneer',
+                      description: 'Veg| Chicken | Paneer',
                       image:
                           'https://images.pexels.com/photos/2619967/pexels-photo-2619967.jpeg?cs=srgb&dl=pexels-engin-akyurt-2619967.jpg&fm=jpg',
                     ),
