@@ -24,9 +24,9 @@ class MainPage extends StatelessWidget {
               BottomNavigationBarItem(
                   icon: Icon(Icons.explore), label: "Explore"),
               BottomNavigationBarItem(
-                  icon: Icon(Icons.car_rental), label: "Cart"),
+                  icon: Icon(Icons.card_travel_outlined), label: "Cart"),
               BottomNavigationBarItem(
-                  icon: Icon(Icons.access_alarm), label: "Account"),
+                  icon: Icon(Icons.people), label: "Account"),
             ]);
       },
     ); //AutoTabsScaffold

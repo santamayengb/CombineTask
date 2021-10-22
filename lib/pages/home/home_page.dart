@@ -17,6 +17,12 @@ class HomePage extends StatelessWidget {
             leading: const Icon(Icons.menu),
             actions: [
               IconButton(
+                icon: const Icon(Icons.card_travel_outlined),
+                onPressed: () {
+                  context.navigateTo(const CartTabRoute());
+                },
+              ),
+              IconButton(
                 icon: const Icon(Icons.search),
                 onPressed: () {},
               ),
