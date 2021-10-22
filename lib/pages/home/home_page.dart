@@ -46,7 +46,6 @@ class HomePage extends StatelessWidget {
                             ]),
                       ),
                     ),
-                    const Center(child: Text("data"))
                   ],
                 )),
           ),
